@@ -9,6 +9,8 @@ In REPL
 (use 'clj-conway.core)
 (main)
 
+![Alt text](screen_shot.tiff "screen shot")
+
 ## License
 
 Copyright © 2013 Rob Siwicki
