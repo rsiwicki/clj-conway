@@ -1,13 +1,16 @@
 # clj-conway
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure version of Conway's Game of Life
 
 ## Usage
 
-FIXME
+In REPL
+
+(use 'clj-conway.core)
+(main)
 
 ## License
 
-Copyright © 2013 FIXME
+Copyright © 2013 Rob Siwicki
 
 Distributed under the Eclipse Public License, the same as Clojure.
