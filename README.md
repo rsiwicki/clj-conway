@@ -9,7 +9,7 @@ In REPL
 (use 'clj-conway.core)
 (main)
 
-![Alt text](screen_shot.tiff "screen shot")
+![Alt text](https://raw.github.com/neuralnet/clj-conway/master/screen_shot.png "screen shot")
 
 ## License
 
