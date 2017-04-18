@@ -21,5 +21,10 @@ pipeline {
         sh '/Users/robsiwicki/Engineering/lein/lein compile'
       }
     }
+    stage('bx') {
+      steps {
+        sh 'VBoxManage startvm kudu-demo --type headless'
+      }
+    }
   }
 }
