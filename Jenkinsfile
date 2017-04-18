@@ -18,7 +18,7 @@ pipeline {
     }
     stage('leiningen') {
       steps {
-        sh 'lein compile'
+        sh '/users/robsiwicki/Engineering/lein compile'
       }
     }
   }
