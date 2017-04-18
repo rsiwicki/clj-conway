@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('error') {
       steps {
-        git(url: 'https://github.com/rsiwicki/clj-conway', branch: 'master')
+        sleep 2
       }
     }
   }
