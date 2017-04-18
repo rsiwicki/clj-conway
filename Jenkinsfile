@@ -16,7 +16,7 @@ pipeline {
         sh 'echo "hello Conway"'
       }
     }
-    stage('') {
+    stage('leiningen') {
       steps {
         sh 'lein compile'
       }
