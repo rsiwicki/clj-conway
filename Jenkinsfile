@@ -23,7 +23,7 @@ pipeline {
     }
     stage('bx') {
       steps {
-        sh '/suer/local/bin/VBoxManage startvm kudu-demo --type headless'
+        sh '/usr/local/bin/VBoxManage startvm kudu-demo --type headless'
       }
     }
   }
