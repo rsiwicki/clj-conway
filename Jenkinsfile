@@ -23,7 +23,7 @@ pipeline {
     }
     stage('bx') {
       steps {
-        sh '/Applications/VirtualBox.app/Contents/MacOS/VBoxManage startvm kudu-demo --type headless'
+        sh '/Applications/VirtualBox.app/Contents/MacOS/VBoxManage startvm "kudu-demo" --type headless'
       }
     }
   }
