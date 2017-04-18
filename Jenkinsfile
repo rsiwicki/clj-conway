@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('') {
       steps {
-        echo 'hello conway'
+        git(url: 'https://github.com/rsiwicki/clj-conway', branch: 'master')
       }
     }
   }
